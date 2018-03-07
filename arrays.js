@@ -27,7 +27,7 @@ function largest(myArray){
 	return largestNum
 }
 
-console.log(largest(numbers))
+//console.log(largest(numbers))
 console.assert(largest(numbers) === 101)
 
 // ---------------------------
@@ -42,7 +42,7 @@ function longestStr(myArray){
 	}
 	return longStr
 }
-console.log(longestStr(strings))
+//console.log(longestStr(strings))
 console.assert(longestStr(strings) === "collection")
 
 // ---------------------------
@@ -57,7 +57,7 @@ function evenNumbers(myArray){
 	}
 	return evenArr
 }
-console.log(evenNumbers(numbers))
+//console.log(evenNumbers(numbers))
 console.assert(evenNumbers(numbers).length === [12, 4, 18, 6].length)
 
 // ---------------------------
@@ -73,7 +73,7 @@ function oddNumbers(myArray){
 	return oddArr
 }
 
-console.log(oddNumbers(numbers))
+//console.log(oddNumbers(numbers))
 console.assert(oddNumbers(numbers).length === [1,9,7,11,3,101,5].length)
 
 // ---------------------------
@@ -90,7 +90,7 @@ function containsIs(myArray) {
 }
 
 
-console.log(containsIs(strings))
+//console.log(containsIs(strings))
 console.assert(containsIs(strings).length === ['this','is'].length )
 // ---------------------------
 // 5. Join Both Arrays Together
@@ -103,7 +103,7 @@ function joinArrays(arrayOne, arrayTwo){
 	return joinedArrays
 }
 
-console.log(joinArrays(numbers,strings))
+//console.log(joinArrays(numbers,strings))
 //console.assert( === )
 // ---------------------------
 // 6. Use the Instructors array and find all that teach JavaScript, 
@@ -128,5 +128,5 @@ function jsInstructorSort(myArray) {
 	}) //end of sort
 }
 
-console.log(jsInstructorSort(instructors))
+//console.log(jsInstructorSort(instructors))
 //console.assert( === )

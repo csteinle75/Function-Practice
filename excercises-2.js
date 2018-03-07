@@ -81,7 +81,7 @@ function rovarspraket(str){
 		return str.replace(consonants, replacer);
 
 }
-console.log(rovarspraket("JavaScript"))
+//console.log(rovarspraket("JavaScript"))
 console.assert(rovarspraket("JavaScript") === "JoJavovaSoScocroripoptot")
 console.assert(rovarspraket("a") === "a")
 console.assert(rovarspraket("b") === "bob")
