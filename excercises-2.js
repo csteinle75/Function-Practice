@@ -59,8 +59,8 @@ console.assert(isVowel("2") === false)
 // the string "tothohisos isos fofunon".
 // ---------------------
 function rovarspraket(str){
-
 	str = str.toString()
+/*
 	let rovarStr = ""
 	for (let i = 0; i < str.length; ++i) {
 		if (str[i].toLowerCase() === 'a' || str[i].toLowerCase() === 'e' || str[i].toLowerCase() === 'i' || str[i].toLowerCase() === 'o' || str[i].toLowerCase() === 'u' || str[i].toLowerCase() === '0' || str[i].toLowerCase() === '1' || str[i].toLowerCase() === '2' || str[i].toLowerCase() === '3' || str[i].toLowerCase() === '4' || str[i].toLowerCase() === '5' || str[i].toLowerCase() === '6' || str[i].toLowerCase() === '7' || str[i].toLowerCase() === '8' || str[i].toLowerCase() === '9'){
@@ -71,19 +71,17 @@ function rovarspraket(str){
 	}
 	//console.log(rovarStr)
 	return rovarStr
+*/
 
-	/* 
-	using .replace & regular expressions:
-
+	//using .replace & regular expressions:
 		let consonants = /[^aeiou0-9]/gi
 		const replacer = function(match){
 			return match + 'o' + match 
 		}
 		return str.replace(consonants, replacer);
 
-	*/
-
 }
+console.log(rovarspraket("JavaScript"))
 console.assert(rovarspraket("JavaScript") === "JoJavovaSoScocroripoptot")
 console.assert(rovarspraket("a") === "a")
 console.assert(rovarspraket("b") === "bob")
